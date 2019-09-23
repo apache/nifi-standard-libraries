@@ -25,7 +25,8 @@ A collection of standard implementations used across the NiFi ecosystem.
 
 ### Requirements
     
-* Java 1.8
+* JDK 1.8 for building
+* JRE >= 1.8 for running
 * Maven 3.1.0, or newer
 * Recent git client
 
@@ -34,6 +35,7 @@ A collection of standard implementations used across the NiFi ecosystem.
 1) Clone the repo
 
         git clone https://git-wip-us.apache.org/repos/asf/nifi-standard-libraries.git
+        cd nifi-standard-libraries
         git checkout master
 
 2) Build the project
